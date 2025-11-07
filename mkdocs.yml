@@ -12,7 +12,7 @@ site_name: Documentación de Calculadora Python # Define el título que aparecer
 nav:
   # El nombre de la sección en el menú: nombre_archivo.md
   # - Home: index.md             # Primer elemento del menú, enlaza con el archivo 'index.md'.
-  - Home: inex.md             # Primer elemento del menú, enlaza con el archivo 'index.md'.
+  - Hme: index.md             # Primer elemento del menú, enlaza con el archivo 'index.md'.
   - Uso: guia_uso.md           # Segundo elemento del menú, enlaza con el archivo 'guia_uso.md'.
   # Se pueden añadir subsecciones anidando listas:
   # - Referencia: 
