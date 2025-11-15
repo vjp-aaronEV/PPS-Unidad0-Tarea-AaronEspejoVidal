@@ -1,17 +1,16 @@
-# Calculadora Python
+# Introducción a la tarea de PPS de la unidad 0
+Esta es la tarea obligatoria de Puesta en Producción Segura de la Unidad 0
 
-Bienvenido a la documentación de la Calculadora Python.
+# Objetivos
+Esta tarea tiene como objetivo evaluar los conocimientos sobre las tecnologías utilizadas en prácticas anteriores:
+- Lenguaje de marcas: En este caso MarkDown
+- Sistemas de control de versiones: Git
+- Creación y adinistración de contendores: Docker
+- Ciclos de desarrollo software seguros: SecDevOps
 
-## Descripción
-
-Esta calculadora tiene una interfaz gráfica usando Tkinter.
-
-## Uso
-
-Ejecuta el script `calculator/gui.py` para iniciar la calculadora.
-
-## Requisitos
-
-- Python 3.x
-- Tkinter
-[![Licencia: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+# Enlaces a los otros documentos
+- [git.md](git.md)
+- [gitActions.md](gitActions.md)
+- [gitPages.md](gitPages.md)
+- [docker.md](docker.md)
+- [conclusion.md](conclusion.md)
