@@ -16,6 +16,6 @@ Como se puede ver en la captura accediendo a la dirección: http://localhost:808
 ![Captura página Nginx](imagenes/13PaginaNginx.png)
 
 ## Docker Inspect
-En la imagen se puede ver parte del comando `docker inspect`, en este [enlace](../dockerInspect.txt) está el documento con la salida del comando
+En la imagen se puede ver parte del comando `docker inspect`, en este [enlace](../dockerInspect.txt)(El enlace funciona si lo ves desde Github, no desde github.io) está el documento con la salida del comando
 
 ![Captura docker inspect](imagenes/14DockerInspect.png)
