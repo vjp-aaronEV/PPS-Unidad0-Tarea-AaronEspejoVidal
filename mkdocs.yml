@@ -7,7 +7,7 @@ nav:
   - git: git.md
   - gitActions: gitActions.md
   - docker: docker.md
-  - conclusiones: conclusiones.md
+  - conclusiones: conclusion.md
 
 # Ruta de los archivos de documentación
 doc_dir: docs 
