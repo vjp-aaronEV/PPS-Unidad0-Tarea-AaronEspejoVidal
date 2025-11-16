@@ -33,7 +33,12 @@ El archivo **.yml** que hagamos tiene que estar en la carpeta `.github/workflows
 ### Captura de pantalla del documento mkdocs.md
 ![Captura de pantalla mkdocs.md](imagenes/6CreacionMkDocs.png)
 
+---
+
 ## Push de la creación del Workflow y comprobación de funcionamiento
 En estas dos capturas de pantalla se va a poder ver como hago el push a github y en la pestaña de **'Actions'** de la página web de Github se ha ejecutado el Workflow correctamente
+- `git add .`: Para añadir todos los cambios en el área de preparación
+- `git commit -am 'mensaje'`: Para guardar una instanea de los cambios del repositorio local y con el parámtero `-am` para poner un mensaje en el commit
+- `git push`: Sube al repositorio online todos los cambios en la rama actual 
 ![Captura de pantalla push a github](imagenes/7PushWorkflow.png)
 ![Captura de pantalla comprobación del workflow](imagenes/8ComprobacionWorkflow.png)
