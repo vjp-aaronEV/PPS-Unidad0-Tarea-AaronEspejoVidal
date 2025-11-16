@@ -8,6 +8,8 @@ Lo primero que he hecho ha sido cambiarme a la rama **gh-pages** para tener todo
 
 ![Captura docker run](imagenes/12DockerRun.png)
 
+**EN LA CAPTURA SE VEN LOS ARCHIVOS DEL PROYECTO ANTERIOR PORQUE COPIE LOS ARCHIVOS DEL ANTERIOR Y NO TENÍA LA RAMA gh-pages EN LOCAL ACTUALIZADA AL NUEVO PROYECTO, DESPUÉS LO ARREGLO Y SE PUEDE VER EN LA CAPTURA DE LA PÁGINA DE NGINX QUE FUNCIONA CORRECTAMENTE**
+
 ## Visualización de la página de Nginx
 Como se puede ver en la captura accediendo a la dirección: http://localhost:8085 carga la página de Nginx
 
