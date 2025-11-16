@@ -1,34 +1,13 @@
-# mkdocs.yml
+# Nombre que aparece en el navegador y en el título de la página
+site_name: Documentación tarea UT0 PPS
 
-# -------------------------------------------------------------
-# CONFIGURACIÓN GENERAL DEL SITIO
-# -------------------------------------------------------------
-site_name: Documentación de Calculadora Python # Define el título que aparecerá en la barra de navegación y en la etiqueta <title> del navegador.
-
-# -------------------------------------------------------------
-# ESTRUCTURA DE NAVEGACIÓN (MENÚ)
-# -------------------------------------------------------------
-# Define la lista de enlaces y el orden de aparición en el menú de navegación principal.
+# Lista de los enlaces a los archivos de documentación
 nav:
-  # El nombre de la sección en el menú: nombre_archivo.md
-  # - Home: index.md             # Primer elemento del menú, enlaza con el archivo 'index.md'.
-  - Hme: index.md             # Primer elemento del menú, enlaza con el archivo 'index.md'.
-  - Uso: guia_uso.md           # Segundo elemento del menú, enlaza con el archivo 'guia_uso.md'.
-  # Se pueden añadir subsecciones anidando listas:
-  # - Referencia: 
-  #   - Funciones: referencia/funciones.md
-  #   - Clases: referencia/clases.md
+  - Home: index.md
+  - git: git.md
+  - gitActions: gitActions.md
+  - docker: docker.md
+  - conclusiones: conclusiones.md
 
-# -------------------------------------------------------------
-# DIRECTORIOS
-# -------------------------------------------------------------
-# Ruta de la carpeta que contiene todos los archivos .md (Markdown) de la documentación.
-# MkDocs buscará aquí los archivos listados en 'nav'.
+# Ruta de los archivos de documentación
 doc_dir: docs 
-# -------------------------------------------------------------
-# TEMA (Opcional, pero común)
-# -------------------------------------------------------------
-# theme: 
-#   name: 'material' # Si usas el popular tema Material for MkDocs.
-#   # highlightjs: true
-#   # code_fences: true

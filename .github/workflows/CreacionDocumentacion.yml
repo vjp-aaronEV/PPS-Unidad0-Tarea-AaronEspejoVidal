@@ -1,1 +1,44 @@
-# Documentacion
+# Nombre del flujo
+name: Generar Documentacion
+
+on:
+  # Se ejecuta cada vez que se realiza un push en la rama main
+  push:
+    branches:
+      - main
+
+# En este caso le doy permisos de lectura y escritura
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Especificar las tareas que tiene que hacer al ejecutarse
+jobs:
+  deploy:
+    # Todas las tareas se ejecutan en un contenedor de Ubuntu con la última versión del mismo
+    runs-on: ubuntu-latest
+
+    steps:
+      # Clonar el repositorio al entorno de trabajo del Runner
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      # Configuración del entorno de Python
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          # Especifica la versión de Python a utilizar
+          python-version: '3.x'
+
+      # Instalo mkdocs para generar la documentación
+      - name: Instalacion Dependencias
+        run: pip install mkdocs
+
+      # Construcción y desplegue de la documentación
+      - name: Desplegue Documentacion
+        # Construcción y subida a la rama gh-pages de la documentación
+        run: mkdocs gh-deploy --force
+        env:
+          # Le paso a mkdocs el token de Github
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
